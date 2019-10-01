@@ -9,3 +9,15 @@ services:
     volumes:
       - ./work:/home/jovyan/work
       - ${DATA_DIR}:/home/jovyan/data
+      - ./CommonModule:/home/jovyan/CommonModule
+      - ./startup-hooks:/usr/local/bin/before-notebook.d/
+      - type: volume
+        source: julia
+        target: /opt/julia/
+      - type: volume
+        source: jupyter
+        target: /home/jovyan/.jupyter
+
+volumes:
+  julia:
+  jupyter:
