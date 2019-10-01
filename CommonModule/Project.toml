@@ -1,0 +1,13 @@
+name = "CommonModule"
+uuid = "00eaf53e-7d6c-4439-8e38-2b6ffb798650"
+authors = ["Marius Feteanu <marius.feteanu@gmail.com>"]
+version = "0.1.0"
+
+[deps]
+CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
+ColorTypes = "3da002f7-5984-5a60-b8a6-cbb66c0b333f"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+ImageDraw = "4381153b-2b60-58ae-a1ba-fd683676385f"
+ImageMagick = "6218d12a-5da1-5696-b52f-db25d2ecc6d1"
+Images = "916415d5-f1e6-5110-898d-aaa5f9f070e0"
+TestImages = "5e47fb64-e119-507b-a336-dd2b206d9990"
